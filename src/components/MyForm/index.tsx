@@ -1,10 +1,11 @@
 import React from "react";
 import MyButton from "../MyButton";
+import style from './MyForm.module.scss';
 
 class MyForm extends React.Component {
     render() {
         return (
-            <form>
+            <form className={style.novaTarefa}>
                 <div>
                     <label htmlFor="tarefa">
                         Adicione um novo estudo
